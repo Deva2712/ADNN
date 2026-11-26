@@ -61,9 +61,28 @@ Six numbered answer-choice actions were removed.
 
 ## Agreement scores
 
-Not yet available. `data/human_label_sample.csv` holds 100 randomly drawn pairs without labels.
-Two team members must fill it in independently; `python kappa.py` then prints Cohen's kappa
-between the two labellers and between each labeller and the automatic label.
+`data/human_label_sample.csv` holds 100 randomly drawn pairs (77 sandbox, 23 ScienceWorld).
+Two team members (Sarthak A and Yashwant Alli) labelled them independently without seeing the
+automatic label. Cohen's kappa from `python kappa.py`:
+
+| comparison | all (n = 100) | sandbox (n = 77) | ScienceWorld (n = 23) |
+|---|---|---|---|
+| labeller 1 vs labeller 2 | 0.320 | 0.432 | 0.044 |
+| labeller 1 vs automatic | 0.388 | 0.329 | 0.401 |
+| labeller 2 vs automatic | 0.272 | 0.357 | 0.073 |
+
+Raw agreement: 56% between the labellers, 59% and 51% with the automatic label.
+
+Agreement is only fair. Two patterns account for much of it:
+
+- On ScienceWorld rows, labeller 2 used `partial` 11 times out of 23, although the automatic
+  procedure has no partial class there. The two labellers read "approximately restored" differently
+  for actions such as walking to another room or opening a freezer.
+- On sandbox rows, agreement with the automatic label is higher on minimal-triple items (60% and
+  65%), where the governing policy line decides the label, than on fixed-tool items (45% and 36%),
+  where the label depends on what the tool does and the four policy lines are distractors.
+
+No disagreements were resolved afterwards. The automatic labels in `pairs.jsonl` are unchanged.
 
 ## Known limitations
 
@@ -81,7 +100,8 @@ between the two labellers and between each labeller and the automatic label.
 - 124 of the 220 irreversible ScienceWorld pairs use the verb `eat`, so the verb alone predicts
   much of that class. Compare against the action-only bag-of-words baseline.
 - A few automatic ScienceWorld labels look odd on inspection (for example `open drawer` labelled
-  irreversible). The hand-labelled sample is the place to quantify this.
+  irreversible). Human agreement is low on ScienceWorld (kappa 0.044 between labellers), so the
+  three-way definition is hard to apply there without the sandbox's policy lines.
 - Labels use a 3-step horizon. `horizon` allows relabelling at 1 or 2 steps.
 
 ## Licences

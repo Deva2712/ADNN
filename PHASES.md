@@ -54,8 +54,8 @@ The Mac holds the code, the data and the results (without the 2 GB hidden-state 
 - [x] `data/pairs.jsonl`: 2,710 pairs (1,050 reversible, 720 partial, 940 irreversible; 53% minimal-pair items)
 - [x] 60 paired behaviour tasks (`data/tasks.jsonl`)
 - [x] Data card (`DATA_CARD.md`)
-- [!] Two team members hand-label `data/human_label_sample.csv` (100 pairs, no labels shown), then
-      run `python kappa.py` and put the three kappa values in the data card and the report
+- [x] Hand-labelled sample (Sarthak A, Yashwant Alli, 27 Nov 2026): kappa 0.320 between labellers,
+      0.388 and 0.272 against the automatic labels; in the data card and the report
 
 ## Phase 2 — Hidden states (Step 2)
 - [x] Last-action-token and mean-over-action-token states, every layer, both models
@@ -97,9 +97,10 @@ The Mac holds the code, the data and the results (without the 2 GB hidden-state 
       irreversible; arXiv:2604.01202 probes the decision to call a tool at all; AgentAbstain is a
       behavioural benchmark with no probing. All three are now cited in Related Work.
 - [!] Ask the instructor to approve Mistral as the second family, or get Llama-3.1 access and rerun
-- [!] Author names in `report/report.tex`, individual contribution log
+- [~] Author names are in `report/report.tex`; department, university and email are placeholders
+- [!] Individual contribution log, one paragraph per member
 - [~] Slides: the prompt for Claude Design is in `SLIDES_PROMPT.md`; the deck itself is not made yet
-- [~] Demo: `python demo.py` runs and shows task-000 in both versions; nothing has been recorded
+- [x] Demo: no recording needed; `python demo.py` is run live (task-000 in both versions)
 - [x] `git init` and first commit
 
 ## Not done (and why)

@@ -11,7 +11,8 @@ findings plainly, show the controls, and not oversell.
 
 Title of the work: **Decodable, Misstated and Ignored: Do LLM Agents Know Which Actions Cannot Be Undone?**
 
-Authors: [TEAM MEMBER NAMES], [DEPARTMENT, UNIVERSITY]. Leave these as visible placeholders.
+Authors: Sarthak A, Sri Hemanshu, Yashwant Alli. [DEPARTMENT, UNIVERSITY] stays as a visible
+placeholder.
 
 ## Format
 
@@ -212,8 +213,8 @@ unsteered = 0.217):
 
 **15. Limitations.**
 - The second model is Mistral-7B, not the Llama-3.1-8B named in the brief (gated, no access).
-- The two-person hand-labelling check on 100 pairs is not done yet, so there is no human agreement
-  score. [REPLACE THIS LINE WITH THE THREE KAPPA VALUES IF THE CHECK IS DONE BEFORE THE TALK]
+- Human agreement on 100 hand-labelled pairs is only fair: kappa 0.320 between the two of us
+  (0.432 on sandbox items, 0.044 on ScienceWorld), and 0.388 and 0.272 against the automatic labels.
 - Small sandbox: four policy-governed tool families. The transfer failures suggest the probe is
   largely learning tool-and-policy conjunctions.
 - ScienceWorld labels use a beam search beyond depth 1, and 124 of its 220 irreversible pairs use

@@ -14,9 +14,9 @@
 
 \title{Decodable, Misstated and Ignored:\\Do LLM Agents Know Which Actions Cannot Be Undone?}
 
-\author{Author One \and Author Two \and Author Three \\
-  Department, University \\
-  \texttt{email@domain}}
+\author{Sarthak A \and Sri Hemanshu \and Yashwant Alli \\
+  DEPARTMENT, UNIVERSITY \\
+  \texttt{EMAIL}}
 
 \begin{document}
 \maketitle
@@ -168,6 +168,15 @@ ScienceWorld has no partial class.
 
 The dataset has 2,710 pairs; 53\% are minimal-triple items. A 20\% test set is held out by
 scenario (sandbox) and by task (ScienceWorld), with three random splits.
+
+\paragraph{Human agreement.} Two authors labelled a random sample of 100 pairs (77 sandbox, 23
+ScienceWorld) independently and without seeing the automatic label. Cohen's $\kappa$ is 0.320
+between the two annotators and 0.388 and 0.272 between each annotator and the automatic label
+(raw agreement 56\%, 59\% and 51\%). Agreement between annotators is higher on sandbox items
+($\kappa = 0.432$) than on ScienceWorld items ($\kappa = 0.044$), where one annotator often chose
+\emph{partial} for actions such as moving to another room, although the automatic procedure has no
+partial class there. On sandbox items the annotators agree with the automatic label more often for
+minimal-triple items (60\% and 65\%) than for fixed-tool items (45\% and 36\%).
 
 \subsection{Models}
 
@@ -549,8 +558,11 @@ results suggest that it largely is.
 depths 2 and 3, the state signature covers only the current room and the inventory, there is no
 partial class, and 124 of the 220 irreversible pairs use the verb \emph{eat}. The ScienceWorld
 test split has 95 items, so its intervals are wide.
-\item \textbf{Human agreement is missing.} The two-annotator check on 100 pairs has not been
-done yet, so there is no $\kappa$ between annotators or against the automatic labels.
+\item \textbf{Human agreement is only fair.} On 100 hand-labelled pairs, $\kappa$ is 0.320 between
+the two annotators and 0.27 to 0.39 against the automatic labels, and close to zero between
+annotators on ScienceWorld. The three-way definition is hard for people to apply consistently,
+especially the partial class and physical actions, so the automatic labels are the operational
+definition of reversibility in this paper rather than a match to human judgement.
 \item \textbf{Models.} Two 7B models. The second family is Mistral, not the Llama-3.1-8B named
 in the brief. The 14B size ablation was not run.
 \item \textbf{One wording per measurement.} The stated-answer question and the task texts each
