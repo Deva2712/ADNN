@@ -1,0 +1,34 @@
+job=40890 node=dgxa gpu=0 start=Thu Nov 19 10:14:19 PM IST 2026
+name, memory.total [MiB], memory.used [MiB]
+NVIDIA A100-SXM4-40GB, 40960 MiB, 88 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB, 88 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB, 18309 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB, 18557 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB, 75 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB, 75 MiB
+=== 01_smoke_qwen start Thu Nov 19 10:14:19 PM IST 2026
+=== 01_smoke_qwen exit=0 Thu Nov 19 10:14:30 PM IST 2026
+=== 02_smoke_qwen start Thu Nov 19 10:28:36 PM IST 2026
+=== 02_smoke_qwen exit=0 Thu Nov 19 10:28:53 PM IST 2026
+=== 03_smoke_qwen start Thu Nov 19 10:29:13 PM IST 2026
+=== 03_smoke_qwen exit=0 Thu Nov 19 10:29:30 PM IST 2026
+=== 04_smoke_qwen start Thu Nov 19 10:29:50 PM IST 2026
+=== 04_smoke_qwen exit=0 Thu Nov 19 10:30:28 PM IST 2026
+=== 10_qwen_sandbox start Thu Nov 19 10:30:48 PM IST 2026
+=== 10_qwen_sandbox exit=0 Thu Nov 19 10:47:58 PM IST 2026
+=== 11_qwen_sw start Thu Nov 19 10:47:58 PM IST 2026
+=== 11_qwen_sw exit=0 Thu Nov 19 10:49:33 PM IST 2026
+=== 20_mistral start Thu Nov 19 10:49:33 PM IST 2026
+=== 20_mistral exit=1 Thu Nov 19 11:28:37 PM IST 2026
+=== 30_qwen_steer start Thu Nov 19 11:28:37 PM IST 2026
+=== 30_qwen_steer exit=143 Thu Nov 19 11:29:34 PM IST 2026
+=== 31_mistral_neutral start Thu Nov 19 11:29:34 PM IST 2026
+=== 31_mistral_neutral exit=143 Thu Nov 19 11:33:16 PM IST 2026
+=== 31b_mistral_neutral start Thu Nov 19 11:33:16 PM IST 2026
+=== 31b_mistral_neutral exit=0 Thu Nov 19 11:57:47 PM IST 2026
+=== 32_qwen_steer start Thu Nov 19 11:57:47 PM IST 2026
+=== 32_qwen_steer exit=143 Fri Nov 20 12:00:53 AM IST 2026
+=== 34_qwen_steer start Fri Nov 20 12:00:53 AM IST 2026
+=== 34_qwen_steer exit=0 Fri Nov 20 01:30:22 AM IST 2026
+=== 36_qwen_steer_minimal start Fri Nov 20 01:30:22 AM IST 2026
+slurmstepd: error: *** JOB 40890 ON dgxa CANCELLED AT 2026-11-20T01:44:33 DUE TO TIME LIMIT ***

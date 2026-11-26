@@ -1,0 +1,21 @@
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   1%|▏         | 4/291 [00:00<00:07, 38.41it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:04, 66.92it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:03, 77.50it/s]Loading weights:  11%|█▏        | 33/291 [00:00<00:03, 83.19it/s]Loading weights:  16%|█▌        | 46/291 [00:00<00:02, 97.28it/s]Loading weights:  20%|█▉        | 58/291 [00:00<00:02, 97.63it/s]Loading weights:  23%|██▎       | 68/291 [00:00<00:02, 89.89it/s]Loading weights:  27%|██▋       | 78/291 [00:00<00:02, 83.59it/s]Loading weights:  30%|██▉       | 87/291 [00:01<00:02, 84.15it/s]Loading weights:  34%|███▍      | 99/291 [00:01<00:02, 92.55it/s]Loading weights:  38%|███▊      | 112/291 [00:01<00:01, 96.95it/s]Loading weights:  42%|████▏     | 122/291 [00:01<00:01, 90.87it/s]Loading weights:  45%|████▌     | 132/291 [00:01<00:01, 90.17it/s]Loading weights:  49%|████▉     | 144/291 [00:01<00:01, 97.08it/s]Loading weights:  53%|█████▎    | 154/291 [00:01<00:01, 97.85it/s]Loading weights:  57%|█████▋    | 166/291 [00:01<00:01, 97.15it/s]Loading weights:  60%|██████    | 176/291 [00:01<00:01, 90.11it/s]Loading weights:  64%|██████▍   | 186/291 [00:02<00:01, 86.59it/s]Loading weights:  67%|██████▋   | 195/291 [00:02<00:01, 87.36it/s]Loading weights:  71%|███████   | 207/291 [00:02<00:00, 95.35it/s]Loading weights:  75%|███████▍  | 218/291 [00:02<00:00, 99.09it/s]Loading weights:  79%|███████▊  | 229/291 [00:02<00:00, 95.91it/s]Loading weights:  82%|████████▏ | 239/291 [00:02<00:00, 94.75it/s]Loading weights:  86%|████████▌ | 249/291 [00:02<00:00, 92.16it/s]Loading weights:  90%|████████▉ | 261/291 [00:02<00:00, 99.74it/s]Loading weights:  93%|█████████▎| 272/291 [00:02<00:00, 99.37it/s]Loading weights:  97%|█████████▋| 283/291 [00:03<00:00, 97.33it/s]Loading weights: 100%|██████████| 291/291 [00:03<00:00, 92.45it/s]
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 0 live 120
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 1 live 120
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 2 live 117
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 3 live 109
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 4 live 105
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 5 live 104
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 6 live 103
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 7 live 103
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 8 live 102
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 9 live 101
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 10 live 101
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 11 live 101
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 12 live 101
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 13 live 101
+results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl step 14 live 101
+saved results/Mistral-7B-Instruct-v0.3/agent_neutral.jsonl
+
+real	24m31.130s
+user	22m17.467s
+sys	2m29.689s

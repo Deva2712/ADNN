@@ -1,0 +1,174 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<01:12,  4.63it/s]Loading weights:   1%|          | 2/339 [00:00<01:17,  4.36it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:08, 38.17it/s]Loading weights:   8%|▊         | 28/339 [00:00<00:05, 59.40it/s]Loading weights:  12%|█▏        | 40/339 [00:00<00:03, 74.97it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 86.52it/s]Loading weights:  19%|█▉        | 64/339 [00:01<00:02, 91.80it/s]Loading weights:  22%|██▏       | 76/339 [00:01<00:02, 98.11it/s]Loading weights:  26%|██▌       | 88/339 [00:01<00:02, 103.60it/s]Loading weights:  29%|██▉       | 99/339 [00:01<00:02, 104.13it/s]Loading weights:  33%|███▎      | 113/339 [00:01<00:02, 108.22it/s]Loading weights:  37%|███▋      | 125/339 [00:01<00:01, 109.11it/s]Loading weights:  40%|████      | 137/339 [00:01<00:01, 107.30it/s]Loading weights:  44%|████▍     | 149/339 [00:01<00:01, 107.27it/s]Loading weights:  47%|████▋     | 161/339 [00:01<00:01, 104.61it/s]Loading weights:  51%|█████     | 172/339 [00:02<00:01, 102.58it/s]Loading weights:  55%|█████▍    | 185/339 [00:02<00:01, 106.19it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:01, 96.83it/s] Loading weights:  62%|██████▏   | 210/339 [00:02<00:01, 101.57it/s]Loading weights:  65%|██████▌   | 222/339 [00:02<00:01, 104.56it/s]Loading weights:  69%|██████▉   | 234/339 [00:02<00:00, 107.16it/s]Loading weights:  74%|███████▍  | 252/339 [00:02<00:00, 125.19it/s]Loading weights:  78%|███████▊  | 265/339 [00:02<00:00, 123.86it/s]Loading weights:  83%|████████▎ | 280/339 [00:02<00:00, 113.12it/s]Loading weights:  86%|████████▋ | 293/339 [00:03<00:00, 115.75it/s]Loading weights:  90%|████████▉ | 305/339 [00:03<00:00, 99.65it/s] Loading weights:  94%|█████████▍| 318/339 [00:03<00:00, 104.18it/s]Loading weights:  97%|█████████▋| 330/339 [00:03<00:00, 106.74it/s]Loading weights: 100%|██████████| 339/339 [00:03<00:00, 97.72it/s] 
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 2 live 72
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 3 live 35
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 4 live 17
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 5 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 6 live 7
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 7 live 4
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 8 live 3
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 9 live 2
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl step 10 live 0
+saved results/Qwen2.5-7B-Instruct/agent_steer_probe_-2.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_random_-2.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_-2.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_-2.jsonl step 2 live 55
+results/Qwen2.5-7B-Instruct/agent_steer_random_-2.jsonl step 3 live 35
+results/Qwen2.5-7B-Instruct/agent_steer_random_-2.jsonl step 4 live 15
+results/Qwen2.5-7B-Instruct/agent_steer_random_-2.jsonl step 5 live 4
+results/Qwen2.5-7B-Instruct/agent_steer_random_-2.jsonl step 6 live 1
+results/Qwen2.5-7B-Instruct/agent_steer_random_-2.jsonl step 7 live 1
+results/Qwen2.5-7B-Instruct/agent_steer_random_-2.jsonl step 8 live 0
+saved results/Qwen2.5-7B-Instruct/agent_steer_random_-2.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_probe_2.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_2.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_2.jsonl step 2 live 33
+results/Qwen2.5-7B-Instruct/agent_steer_probe_2.jsonl step 3 live 8
+results/Qwen2.5-7B-Instruct/agent_steer_probe_2.jsonl step 4 live 4
+results/Qwen2.5-7B-Instruct/agent_steer_probe_2.jsonl step 5 live 1
+results/Qwen2.5-7B-Instruct/agent_steer_probe_2.jsonl step 6 live 0
+saved results/Qwen2.5-7B-Instruct/agent_steer_probe_2.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 2 live 46
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 3 live 26
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 4 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 5 live 7
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 6 live 6
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 7 live 6
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 8 live 6
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 9 live 6
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 10 live 6
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 11 live 6
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 12 live 6
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 13 live 6
+results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl step 14 live 6
+saved results/Qwen2.5-7B-Instruct/agent_steer_random_2.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 2 live 87
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 3 live 56
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 4 live 30
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 5 live 24
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 6 live 20
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 7 live 16
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 8 live 16
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 9 live 14
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 10 live 12
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 11 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 12 live 9
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 13 live 9
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl step 14 live 9
+saved results/Qwen2.5-7B-Instruct/agent_steer_probe_-4.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl step 2 live 49
+results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl step 3 live 23
+results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl step 4 live 11
+results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl step 5 live 1
+results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl step 6 live 1
+results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl step 7 live 1
+results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl step 8 live 1
+results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl step 9 live 0
+saved results/Qwen2.5-7B-Instruct/agent_steer_random_-4.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 2 live 30
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 3 live 6
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 4 live 5
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 5 live 4
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 6 live 4
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 7 live 3
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 8 live 3
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 9 live 3
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 10 live 2
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 11 live 2
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 12 live 2
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 13 live 2
+results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl step 14 live 2
+saved results/Qwen2.5-7B-Instruct/agent_steer_probe_4.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 2 live 49
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 3 live 22
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 4 live 14
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 5 live 11
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 6 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 7 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 8 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 9 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 10 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 11 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 12 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 13 live 10
+results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl step 14 live 10
+saved results/Qwen2.5-7B-Instruct/agent_steer_random_4.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 2 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 3 live 117
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 4 live 114
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 5 live 108
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 6 live 108
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 7 live 107
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 8 live 106
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 9 live 105
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 10 live 104
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 11 live 101
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 12 live 98
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 13 live 98
+results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl step 14 live 98
+saved results/Qwen2.5-7B-Instruct/agent_steer_probe_-8.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 2 live 91
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 3 live 57
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 4 live 33
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 5 live 28
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 6 live 22
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 7 live 20
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 8 live 19
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 9 live 18
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 10 live 18
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 11 live 18
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 12 live 17
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 13 live 17
+results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl step 14 live 17
+saved results/Qwen2.5-7B-Instruct/agent_steer_random_-8.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 1 live 103
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 2 live 38
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 3 live 30
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 4 live 30
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 5 live 29
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 6 live 29
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 7 live 29
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 8 live 29
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 9 live 29
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 10 live 29
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 11 live 29
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 12 live 29
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 13 live 29
+results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl step 14 live 29
+saved results/Qwen2.5-7B-Instruct/agent_steer_probe_8.jsonl
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 0 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 1 live 120
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 2 live 105
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 3 live 103
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 4 live 100
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 5 live 100
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 6 live 100
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 7 live 99
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 8 live 99
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 9 live 99
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 10 live 99
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 11 live 99
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 12 live 99
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 13 live 99
+results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl step 14 live 99
+saved results/Qwen2.5-7B-Instruct/agent_steer_random_8.jsonl
+
+real	89m29.071s
+user	85m11.232s
+sys	4m49.529s
