@@ -3,7 +3,7 @@
 Measurement study for ADNN Project Option 1. Two open-weight models are tested for whether they
 (1) encode action reversibility in their hidden states, (2) state it correctly when asked, and
 (3) act on it as agents. `PHASES.md` lists the phases and the decisions fixed before any test
-data was seen. `results/tables.md` holds every number; `report/report.tex` is the write-up (ACL LaTeX, not yet compiled).
+data was seen. `results/tables.md` holds every number; `report/report.tex` is the write-up (ACL LaTeX, compiled to `report/report.pdf`).
 
 All irreversible actions happen inside an in-memory simulation (`sandbox.py`). Nothing touches
 real files, mail or accounts. No paid API is used.
@@ -72,6 +72,6 @@ with that model name.
 
 ## Still to do by the team
 
-See the `[!]` and `[~]` items in `PHASES.md`: the individual contribution log, telling the
-instructor that Mistral-7B replaced the gated Llama-3.1-8B, and the two optional GPU runs.
+See the `[!]` and `[~]` items in `PHASES.md`: the individual contribution log and the two
+optional GPU runs.
 The slide deck is `slides/Irreversibility_Deck.pptx`.

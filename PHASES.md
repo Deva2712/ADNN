@@ -97,7 +97,8 @@ The Mac holds the code, the data and the results (without the 2 GB hidden-state 
       "The Authorization Direction" probes authorised vs unauthorised commits of actions that are all
       irreversible; arXiv:2604.01202 probes the decision to call a tool at all; AgentAbstain is a
       behavioural benchmark with no probing. All three are now cited in Related Work.
-- [!] Ask the instructor to approve Mistral as the second family, or get Llama-3.1 access and rerun
+- [x] Mistral as the second family: the team decided (27 Nov 2026) not to ask the instructor separately;
+      the substitution is stated in the report's limitations and on slide 15
 - [x] Author names and roll numbers are in `report/report.tex` (no department or university line, by choice)
 - [!] Individual contribution log, one paragraph per member
 - [x] Slides: `slides/Irreversibility_Deck.pptx` (16 slides, made in Claude Design from `SLIDES_PROMPT.md`;
