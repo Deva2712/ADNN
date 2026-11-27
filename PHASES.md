@@ -87,8 +87,9 @@ The Mac holds the code, the data and the results (without the 2 GB hidden-state 
 
 ## Phase 7 — Write-up
 - [x] Figures and tables from saved results (`analyze.py` → `results/tables.md`, `figs/`)
-- [x] Report draft in ACL LaTeX (`report/report.tex`, `report/refs.bib`). Not compiled yet: no LaTeX
-      is installed on the Mac or the DGX. Compile in Overleaf with the ACL template and fix any errors.
+- [x] Report in ACL LaTeX (`report/report.tex`, `report/refs.bib`), compiled to `report/report.pdf`
+      (9 pages, all citations resolve) on 27 Nov 2026. To recompile on the Mac:
+      `cd report && ~/.local/bin/tectonic report.tex`. `acl.sty` and `acl_natbib.bst` are in `report/`.
 - [x] README, demo replay script (`demo.py`)
 - [x] Every entry in `report/refs.bib` checked against its primary record (26 Nov 2026): all titles,
       authors and venues were right; pages and full author lists were added where missing
@@ -97,9 +98,11 @@ The Mac holds the code, the data and the results (without the 2 GB hidden-state 
       irreversible; arXiv:2604.01202 probes the decision to call a tool at all; AgentAbstain is a
       behavioural benchmark with no probing. All three are now cited in Related Work.
 - [!] Ask the instructor to approve Mistral as the second family, or get Llama-3.1 access and rerun
-- [~] Author names are in `report/report.tex`; department, university and email are placeholders
+- [x] Author names and roll numbers are in `report/report.tex` (no department or university line, by choice)
 - [!] Individual contribution log, one paragraph per member
-- [~] Slides: the prompt for Claude Design is in `SLIDES_PROMPT.md`; the deck itself is not made yet
+- [x] Slides: `slides/Irreversibility_Deck.pptx` (16 slides, made in Claude Design from `SLIDES_PROMPT.md`;
+      the four figures were inserted and the kappa line on slide 15 filled in afterwards, 27 Nov 2026).
+      Slide 12 uses `figs/steering_curve_caution.png`, the two caution panels cropped from `steering_curve.png`
 - [x] Demo: no recording needed; `python demo.py` is run live (task-000 in both versions)
 - [x] `git init` and first commit
 

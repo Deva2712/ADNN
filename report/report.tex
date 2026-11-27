@@ -14,9 +14,9 @@
 
 \title{Decodable, Misstated and Ignored:\\Do LLM Agents Know Which Actions Cannot Be Undone?}
 
-\author{Sarthak A \and Sri Hemanshu \and Yashwant Alli \\
-  DEPARTMENT, UNIVERSITY \\
-  \texttt{EMAIL}}
+\author{Sarthak Amilkanthwar \\ SE23UCSE019 \And
+  Sri Hemanshu \\ SE23UCSE057 \And
+  Yashwant Alli \\ SE23UCSE191}
 
 \begin{document}
 \maketitle
@@ -128,7 +128,7 @@ mailbox or account. Four policies govern four tools:
 
 \begin{center}
 \small
-\begin{tabular}{lll}
+\resizebox{\linewidth}{!}{\begin{tabular}{lll}
 \toprule
 tool & policy & levels (rev. / partial / irrev.) \\
 \midrule
@@ -137,7 +137,7 @@ tool & policy & levels (rev. / partial / irrev.) \\
 \texttt{send\_email} & outgoing mail & 60\,s undo / recall / instant \\
 \texttt{transfer\_money} & settlement & pending / 5\% fee / final \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \end{center}
 
 Every state shows all four policy lines, each in one of three phrasings. The label of a governed
@@ -269,7 +269,7 @@ bag-of-words baselines and chance.}
 \begin{table}[t]
 \centering
 \small
-\begin{tabular}{lcc}
+\resizebox{\linewidth}{!}{\begin{tabular}{lcc}
 \toprule
  & Qwen (L20) & Mistral (L17) \\
 \midrule
@@ -292,7 +292,7 @@ Control task, action identity & .760 & .755 \\
 Selectivity, verb & $-.075$ & $-.104$ \\
 Selectivity, action identity & $+.160$ & $+.132$ \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \caption{RQ1. Balanced accuracy at the best layer (chosen by training cross-validation). Values
 are means over three splits; brackets are 95\% bootstrap intervals for the first split. Baselines
 and controls are for the binary task.}
@@ -322,7 +322,7 @@ and $+0.132$ at the best layer.
 \begin{table}[t]
 \centering
 \small
-\begin{tabular}{lcc}
+\resizebox{\linewidth}{!}{\begin{tabular}{lcc}
 \toprule
 Ablation (binary unless stated) & Qwen & Mistral \\
 \midrule
@@ -343,7 +343,7 @@ Held out: \texttt{edit\_file} & .613 (.802) & .662 (.711) \\
 Held out: \texttt{send\_email} & .654 (.919) & .517 (.848) \\
 Held out: \texttt{transfer\_money} & .725 (.884) & .671 (.769) \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \caption{Ablations at the best layer (balanced accuracy; AUROC in parentheses for the held-out
 tool-family experiment). Horizon rows use ScienceWorld items only ($n{=}95$ test items).}
 \label{tab:ablations}
@@ -367,7 +367,7 @@ policy. We do not find one environment-independent ``irreversible'' direction.
 \begin{table}[t]
 \centering
 \small
-\begin{tabular}{lcc}
+\resizebox{\linewidth}{!}{\begin{tabular}{lcc}
 \toprule
  & Qwen & Mistral \\
 \midrule
@@ -386,7 +386,7 @@ Probe right, stated wrong & 53.2\% & 48.0\% \\
 Stated right, probe wrong & 3.4\% & 4.5\% \\
 Most frequent stated answer & PARTIAL 77\% & REVERSIBLE 95\% \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \caption{RQ2. Three-way accuracy of the stated answer and of the three-class probe (out-of-fold,
 best layer), and Cohen's $\kappa$. No answer was unparseable.}
 \label{tab:rq2}
@@ -405,7 +405,7 @@ is wrong. What the model says does not match what its hidden state encodes.
 \begin{table*}[t]
 \centering
 \small
-\begin{tabular}{llccccccc}
+\resizebox{\linewidth}{!}{\begin{tabular}{llccccccc}
 \toprule
 Model & Prompt & Irrev.\ action & Caution & Over-caution & Sensitivity & McNemar & Success & Parse \\
  & & rate & (irrev.) & (rev.) & & $p$ & irr.\ / rev. & fail \\
@@ -414,7 +414,7 @@ Qwen & neutral & .950 {\scriptsize[.883, 1.00]} & .217 {\scriptsize[.116, .333]}
 Qwen & careful & .983 {\scriptsize[.950, 1.00]} & .200 {\scriptsize[.100, .317]} & .233 {\scriptsize[.133, .350]} & $-.033$ {\scriptsize[$-$.083, .000]} & 0.50 & 1.00 / .950 & .002 \\
 Mistral & neutral & .950 {\scriptsize[.883, 1.00]} & .083 {\scriptsize[.017, .167]} & .100 {\scriptsize[.033, .183]} & $-.017$ {\scriptsize[$-$.050, .000]} & 1.00 & .933 / .933 & .026 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \caption{RQ3 on 60 task pairs (120 runs per row). Brackets are 95\% bootstrap intervals over
 pairs. Sensitivity is caution rate on the irreversible version minus caution rate on the
 reversible version.}
@@ -483,7 +483,7 @@ computed from minimal pairs only, which was run at $\pm 2$.}
 \begin{table*}[t]
 \centering
 \small
-\begin{tabular}{r|cccccc|cccccc}
+\resizebox{\linewidth}{!}{\begin{tabular}{r|cccccc|cccccc}
 \toprule
  & \multicolumn{6}{c|}{Irreversible-minus-reversible direction} & \multicolumn{6}{c}{Random direction, same norm} \\
 $\alpha$ & Caut.\ irr. & Caut.\ rev. & Inspect & Risky & Success & Parse fail & Caut.\ irr. & Caut.\ rev. & Inspect & Risky & Success & Parse fail \\
@@ -496,7 +496,7 @@ $+2$ & .033 & .017 & .033 & .983 & .983 & .000 & .200 & .217 & .183 & .983 & 1.0
 $+4$ & .033 & .033 & .033 & .967 & .950 & .003 & .233 & .200 & .200 & .967 & .983 & .000 \\
 $+8$ & .583 & .633 & .000 & .417 & .383 & .406 & .633 & .600 & .050 & .400 & .383 & .471 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \caption{RQ4 on Qwen (60 task pairs per row and direction). Caut.: caution rate on the
 irreversible and reversible versions. Inspect, Risky and Success are for the irreversible
 version: state inspected before the risky call, risky call made, task completed. Parse fail is

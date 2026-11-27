@@ -72,5 +72,6 @@ with that model name.
 
 ## Still to do by the team
 
-See the `[!]` and `[~]` items in `PHASES.md`: hand-labelling of 100 pairs, author names, the
-contribution log, the slide deck (prompt in `SLIDES_PROMPT.md`) and the demo recording.
+See the `[!]` and `[~]` items in `PHASES.md`: the individual contribution log, telling the
+instructor that Mistral-7B replaced the gated Llama-3.1-8B, and the two optional GPU runs.
+The slide deck is `slides/Irreversibility_Deck.pptx`.

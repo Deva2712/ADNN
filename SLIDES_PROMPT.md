@@ -11,8 +11,7 @@ findings plainly, show the controls, and not oversell.
 
 Title of the work: **Decodable, Misstated and Ignored: Do LLM Agents Know Which Actions Cannot Be Undone?**
 
-Authors: Sarthak A, Sri Hemanshu, Yashwant Alli. [DEPARTMENT, UNIVERSITY] stays as a visible
-placeholder.
+Authors: Sarthak Amilkanthwar (SE23UCSE019), Sri Hemanshu (SE23UCSE057), Yashwant Alli (SE23UCSE191).
 
 ## Format
 
@@ -45,7 +44,7 @@ together, the first is Qwen and the second is Mistral.
 
 ## Slides
 
-**1. Title slide.** Title, authors placeholder, "ADNN Project Option 1", and one line: "A
+**1. Title slide.** Title, authors with roll numbers, "ADNN Project Option 1", and one line: "A
 measurement study on two open-weight 7B models".
 
 **2. A careful person slows down before an action that cannot be undone. Do LLM agents?**
